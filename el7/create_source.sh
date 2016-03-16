@@ -1,10 +1,10 @@
 #!/bin/bash
 
-VERSION=0.5.3
+VERSION=0.5.4
 NAME=subuser
 PREFIX=rh-python34
 SOURCE=$PREFIX-$NAME-$VERSION
-TARBALL=$PREFIX-$NAME-$VERSION.tar.gz
+TARBALL=$SOURCE.tar.gz
 
 wget https://github.com/subuser-security/subuser/archive/$VERSION.tar.gz
 

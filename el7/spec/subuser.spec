@@ -2,7 +2,7 @@
 %{!?scl:%global pkg_name %{name}}
 
 Name:       %{?scl_prefix}subuser           
-Version:    0.5.3
+Version:    0.5.4
 Release:    1%{?dist}
 Summary:    Securing the Linux desktop with Docker.
 
@@ -11,8 +11,7 @@ BuildRoot:  %{_tmppath}/%{pkg_name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 License:    LGPLv3
 URL:        http://subuser.org
-#Source0:    https://github.com/%{name}-security/%{name}/archive/%{version}.tar.gz
-Source0:    %{name}-%{version}.tar
+Source0:    %{name}-%{version}.tar.gz
 Source1:    enablepython34.sh
 Source2:    enablesubuser.sh
 
@@ -22,6 +21,7 @@ BuildRequires:  %{?scl_prefix}python-sphinx
 %{?scl:Requires: %{scl}-runtime}
 Requires: docker >= 1.3
 Requires: xorg-x11-xauth
+Requires: git
 
 %define _unpackaged_files_terminate_build       0
 %define _missing_doc_files_terminate_build      0        
@@ -96,6 +96,8 @@ rm -rf %{buildroot}
 %doc
 
 %changelog
+* Wed Mar 16 2016 Stanislas LEDUC <stanislas.leduc@mailoo.org> 0.5.4-1
+- Packaging 0.5.4
 * Wed Mar 09 2016 Stanislas LEDUC <stanislas.leduc@mailoo.org> 0.5.3-1
 - Packaging 0.5.3
 * Sun Feb 28 2016 Stanislas LEDUC <stanislas.leduc@mailoo.org> 0.5.2-1
