@@ -14,6 +14,8 @@ System Requirements
  
  * SCL enable
 
+ * SELINUX Disable or Permissive mode (investigate to use with Enforcing) 
+
 Installation
 ------------
 
