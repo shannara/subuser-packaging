@@ -1,0 +1,15 @@
+subuser (0.5.5-1) unstable; urgency=low
+
+  [ Stanislas Leduc ]
+  * New upstream release:
+  - Fix mount /dev/dri permissions  
+
+
+ -- Stanislas Leduc <stanislas.leduc@mailoo.org>  Sat, 26 Mar 2016 14:22:30 +0100
+
+subuser (0.5.4-1) unstable; urgency=low
+
+  [ Stanislas Leduc ]
+  * 0.5.4 release - initial packaging
+
+ -- Stanislas Leduc <stanislas.leduc@mailoo.org>  Wed, 23 Mar 2016 13:24:29 +0100
