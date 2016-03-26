@@ -10,9 +10,9 @@ pub  2048R/12EC4983 2016-03-24 Stanislas Leduc (shann) <stanislas.leduc@mailoo.o
 System Requirements
 --------------------
 
- * CentOS 7 x64
+ * CentOS or RHEL 7 x64 (not support Fedora for moment)
  
- * SCL enable
+ * Softwares Collections enable
 
  * SELINUX Disable or Permissive mode (investigate to use with Enforcing) 
 
@@ -21,7 +21,11 @@ Installation
 
 1. Install Software Collection
 ```
+ On CentOS
  # yum install centos-release-scl
+ On RHEL
+ # subscription-manager repos --enable rhel-7-server-optional-rpms
+ # yum-config-manager --enable rhel-server-rhscl-7-rpms
 ```
 
 2. Install subuser
