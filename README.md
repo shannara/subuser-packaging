@@ -29,7 +29,7 @@ Installation
 
 1. Install subuser
 
-Download version you should from el7/rpms folder (for now only git version 0.5.4-20160324git in available).
+Download version you should from el7/rpms folder (0.5.5 is latest version).
 
 ```
  # yum localinstall path/to/rh-python34-subuser-xxx.el7.centos.x86_64.rpm
