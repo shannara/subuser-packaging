@@ -16,7 +16,7 @@ System Requirements
 
 Installation
 ------------
-* #### CentOS/RHEL
+* CentOS/RHEL
 0. Install Software Collection
 ```
  On CentOS
@@ -35,7 +35,7 @@ Download version you should from el7/rpms folder (for now only git version 0.5.4
 ```
 
 
-* #### Debian
+* Debian
 1. Install subuser
 
 Download version you should from jessie/deb folder (0.5.5 is latest version).
