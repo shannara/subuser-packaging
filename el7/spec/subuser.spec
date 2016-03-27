@@ -2,9 +2,9 @@
 %{!?scl:%global pkg_name %{name}}
 
 Name:       %{?scl_prefix}subuser           
-Version:    0.5.4
+Version:    0.5.5
 Release:    1%{?dist}
-Summary:    Securing the Linux desktop with Docker.
+Summary:    Run programs on linux with selectively restricted permissions.
 
 Group:      Applications/System
 BuildRoot:  %{_tmppath}/%{pkg_name}-%{version}-%{release}-root-%(%{__id_u} -n)
@@ -75,12 +75,6 @@ cp %{SOURCE2} %{buildroot}/etc/profile.d
 pushd %{buildroot}%{python3_sitelib}
 popd
 
-#%pre
-#/usr/bin/getent group docker || /usr/sbin/groupadd -r docker
-
-#%postun
-#/usr/sbin/userdel docker
-
 %clean
 rm -rf %{buildroot}
 
@@ -96,6 +90,9 @@ rm -rf %{buildroot}
 %doc
 
 %changelog
+* Sun Mar 27 2016 Stanislas LEDUC <stanislas.leduc@mailoo.org> 0.5.5-1
+- bugfixes
+- packaging 0.5.5
 * Wed Mar 16 2016 Stanislas LEDUC <stanislas.leduc@mailoo.org> 0.5.4-1
 - Packaging 0.5.4
 * Wed Mar 09 2016 Stanislas LEDUC <stanislas.leduc@mailoo.org> 0.5.3-1
