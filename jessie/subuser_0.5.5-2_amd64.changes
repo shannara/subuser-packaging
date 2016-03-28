@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 28 Mar 2016 01:12:33 +0200
+Source: subuser
+Binary: subuser
+Architecture: source amd64
+Version: 0.5.5-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Stanislas Leduc <stanislas.leduc@mailoo.org>
+Changed-By: Stanislas Leduc <stanislas.leduc@mailoo.org>
+Description:
+ subuser    - Run programs on linux with selectively restricted permissions.
+Changes:
+ subuser (0.5.5-2) unstable; urgency=medium
+ .
+   [ Stanislas Leduc ]
+   * New debian package revision :
+   - Fix lintian errors
+Checksums-Sha1:
+ 984d29a1f5e02a7f431bc3f1f56c4fe627062a33 1761 subuser_0.5.5-2.dsc
+ 78f69491ad353fd6865bfd1ec31e7d51b1eceecd 2808 subuser_0.5.5-2.debian.tar.xz
+ cf07218e01587bf12ac8007a58f613bcf266fd83 15552 subuser_0.5.5-2_amd64.deb
+Checksums-Sha256:
+ 5ab5e5f7b33bbac9902420918516e769485fc877e3eb35d2df44b0b643c67611 1761 subuser_0.5.5-2.dsc
+ 4ba086519557f62cf272665bcd50452c6d4cab01cef78d5bbf2de10a57b0763c 2808 subuser_0.5.5-2.debian.tar.xz
+ ea21d3adafadcc055eae9e28b75bbf3bc86e7820cb528c73d1283c62a4f2f2f7 15552 subuser_0.5.5-2_amd64.deb
+Files:
+ 1c847c7b8bf8409ccae929fcd1ff7a53 1761 admin optional subuser_0.5.5-2.dsc
+ 26ace4a698fa7ebbb2e9913517a5529e 2808 admin optional subuser_0.5.5-2.debian.tar.xz
+ 136aaa208e8d12e4d7c212388a68c7f5 15552 admin optional subuser_0.5.5-2_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJW+GlMAAoJENeAuTGKLLmDrOAP/3Rkkwm6ppst62bFyjOPq7fJ
+1oNmhSUSrcQOrWaRpG9d2QlWHcmwQXR394a3f/IzRBYtfUeSC5j1CSsXoraKCaRR
+UKayBmDGhe/Hf86F2A/KMt6IVXoT5IAdUsSbKwzVUMd5iMX/BWQIye+pG6uxFKF/
+OBq3sQmmoFdp2FTAtnn156R+2uEmfou/RCumYPQeXfaCkPgfacBYz4xepRUxBTye
+0kZsSfn/9BXLhD+RquYWkA+5FQYRDR8yN5IZs6Jk30IajJwXYVqvFxxxLKgpiWrC
+l7RxwJ46wKsKIb3fprR7iQ9HVu2g7VCYOZiV11VeTmhS1RgYByzZZHO57oetMSM5
+KBUJ5LjPCUzEPsVf5XG5FtqPAgdKpY1Zd9fiK96ViS9sW6Aab8PI0dG4Nfuw3tJh
+gRkJqZEqp2FRbYLTUl/jR86Qxzu1B/QhQjulWQMSdPzCCYmPthasAJnKdRZU7oBw
+ea0IsL4XoBgAtAFR942wNUL9JVMuXzLAc1tYF7Hu9VRg8NQAb1/ZMefdHmdXiJHo
+iE2R+SfGmwHLA0FWk/LRU724nhcYz+RaVf+p2+CW7gLbBetwALbBdqmokE3QR0SW
+IJLtDzMDjE87gJIo3IorPw/ISEICzMJ2gQMe9vC6OCax/y/kwx5XVga0JydRcgN6
+zvNcOM4kOVDVG5/POJ6E
+=00ew
+-----END PGP SIGNATURE-----

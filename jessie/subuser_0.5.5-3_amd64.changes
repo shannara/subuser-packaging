@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 28 Mar 2016 01:43:21 +0200
+Source: subuser
+Binary: subuser
+Architecture: source amd64
+Version: 0.5.5-3
+Distribution: unstable
+Urgency: medium
+Maintainer: Stanislas Leduc <stanislas.leduc@mailoo.org>
+Changed-By: Stanislas Leduc <stanislas.leduc@mailoo.org>
+Description:
+ subuser    - Run programs on linux with selectively restricted permissions
+Changes:
+ subuser (0.5.5-3) unstable; urgency=medium
+ .
+   * New debian package revision :
+   - Fix lintian warnings
+Checksums-Sha1:
+ 03cac161446851a91da9625e768721ee612b5a9f 1761 subuser_0.5.5-3.dsc
+ 393c6851a0a07b1435ef2032f182bbcd55d0dde9 2580 subuser_0.5.5-3.debian.tar.xz
+ 10af06b13576ab79d68e55b6c1e47998298eb860 15308 subuser_0.5.5-3_amd64.deb
+Checksums-Sha256:
+ 2547c62ffc3136cf3b99f1371a7b48043342c2164e1836782b15a272ed32d51d 1761 subuser_0.5.5-3.dsc
+ 41119b9be6f0a469279a8dc3d8bdb3929f7fd60df3a5dc5f10a94a8338633f2e 2580 subuser_0.5.5-3.debian.tar.xz
+ b51ac208e2218bff90ae65a93f456b8191cced69c019e079bf5a8b3594c1bc58 15308 subuser_0.5.5-3_amd64.deb
+Files:
+ 1413e50563d989b3d3dcc6b15ad9a37d 1761 admin optional subuser_0.5.5-3.dsc
+ 2d7e79856d8efdbcd7a24f51142c9787 2580 admin optional subuser_0.5.5-3.debian.tar.xz
+ 3d4574c33c45636639c232c121e3bbd1 15308 admin optional subuser_0.5.5-3_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJW+HWtAAoJENeAuTGKLLmDiTwP+wdndejgYM/7rL9riXtUY80z
+evv3H/kG6S/foG9AxcoJPOUGgyIocIA720jdYuWvIHVVKGAlUPWWVmC8Pnm7GrbT
+pGFhfd0gJd/UmGIj8oip6SOjE2tAQi6qYOJXxWZeQUyv1zrSYGK/e5SaII/ls3lP
+vov+E5o3TywE18by7RQwBXQankKBfNOQjskpGtbo2R1RPtDiYwc4rGexoe5nWc6O
+5I4M4AzbbYAvysVC+sVGYlZSUXtn3lhN5rSCNeiFa6PJbM2/Zhxfnlcjrlm/Gwdn
+XuZU64qU7xEjhXV4+vqNgbAQz2hqqsZEzQcMBIxhXDgzkIe97a8MTv5rMVcPtulV
+5RiomVsZmJ5E3OUcvP053udkPT18hpEcWa6esTuXKPpgXfsmxGb9T9+C1s2n4uRi
+IyIvYRQdw/LFU7uw0zI/Qj+Wtk4dc4QVbt1JrUzeDeYZjCFkBVo+V6eP09fehsfF
+FvawlTHBOzNgqzinaM/hlD4arnu1YF7Me6ClA4W9aoYIMxMp97X1dpr4leoR4x4t
+McJfGtO0I5kE9Je+JwXyHrLmXbLSI1eG/32IE3vPuI+QkupyIHnCmx8ln2aCgOx6
+pnIcmNeb1DxkeZ1YpJSQO+UmZZ4HPwz8i8ofIXsewyMa2BtpBerLGIQwAkIPxw28
+hTN6m+jzw/95j0j3juMn
+=6XHX
+-----END PGP SIGNATURE-----

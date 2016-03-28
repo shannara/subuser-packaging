@@ -2,26 +2,20 @@ Source: subuser
 Section: admin
 Priority: optional
 Maintainer: Stanislas Leduc <stanislas.leduc@mailoo.org>
-Build-Depends: debhelper (>= 9), python3-setuptools
+Build-Depends: debhelper (>= 9), dh-make, dh-python, python3-dev, python3-setuptools
 Standards-Version: 3.9.7
-X-Python3-Version: >= 3.4
 Homepage: https://github.com/subuser-security/subuser
 
 Package: subuser
 Architecture: amd64
 Homepage: http://subuser.org
 Depends: ${misc:Depends}, ${python3:Depends}, python3-setuptools, git, docker.io (>= 1.3)
-Description: Run programs on linux with selectively restricted permissions.
- As free software developers we like to share. We surf the web and discover new code.
- We are eager to try it out. We live out an orgy of love and trust, 
- unafraid that some code we cloned from git might be faulty or malicious. 
- We live in the 60s, carefree hippies.
- This is utopia.
- But sharing code isn't safe. Every time we try out some stranger's script we put ourselves at risk.
- Despite the occasional claim that linux is a secure operating system, haphazardly sharing programs is NOT secure.
- Furthermore, the fragmentation of the linux desktop means that packaging work is needlessly repeated.
- Programs that build and run on Fedora must be repackaged for Ubuntu. 
+Description: Run programs on Linux with selectively restricted permissions
+ Furthermore, the fragmentation of the Linux desktop means that packaging work 
+ is needlessly repeated. Programs that build and run on Fedora must be 
+ repackaged for Ubuntu. 
  This takes time away from creating great free open source software.
- Subuser with Docker attacks both problems simultaneously. Docker provides an isolated and consistent 
- environment for your programs to run in. Subuser gives your desktop programs access to the resources 
- they need in order to function normally.
+ Subuser with Docker attacks both problems simultaneously. 
+ Docker provides an isolated and consistent environment for your programs to 
+ run in. Subuser gives your desktop programs access to the resources they need 
+ in order to function normally.

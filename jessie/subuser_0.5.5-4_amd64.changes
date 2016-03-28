@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 28 Mar 2016 02:07:37 +0200
+Source: subuser
+Binary: subuser
+Architecture: source amd64
+Version: 0.5.5-4
+Distribution: unstable
+Urgency: medium
+Maintainer: Stanislas Leduc <stanislas.leduc@mailoo.org>
+Changed-By: Stanislas Leduc <stanislas.leduc@mailoo.org>
+Description:
+ subuser    - Run programs on Linux with selectively restricted permissions
+Changes:
+ subuser (0.5.5-4) unstable; urgency=medium
+ .
+   * New debian package revision :
+   - Fix lintian warnings
+Checksums-Sha1:
+ 1522ab4dec3650464e7ee0660445cec64dfda813 1761 subuser_0.5.5-4.dsc
+ f5feb9c44899053cb172c421b422373c5f220cff 2588 subuser_0.5.5-4.debian.tar.xz
+ 881bfd7cda9402202dad6798ba34a8765d24701c 15322 subuser_0.5.5-4_amd64.deb
+Checksums-Sha256:
+ e3bfb5f7c5da4d5c91e1ea45a8cec4b4212311d7001055ad29e91effaab0416d 1761 subuser_0.5.5-4.dsc
+ b4c723af913313f54e5953e1ccc2816b697a3190993a47ef48aecb3e6be33bf7 2588 subuser_0.5.5-4.debian.tar.xz
+ c6e889c0f106ef9b3652718466ad648c8fb6c17732b222df7ea13907c938a30f 15322 subuser_0.5.5-4_amd64.deb
+Files:
+ af54a294f814a95f963b6faac0f10e94 1761 admin optional subuser_0.5.5-4.dsc
+ 98181a6551bcb2898bb1deb17ad218ed 2588 admin optional subuser_0.5.5-4.debian.tar.xz
+ 45188c1e5b250a775586e2b1cf0bc950 15322 admin optional subuser_0.5.5-4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJW+HixAAoJENeAuTGKLLmDPAAP/j6TtCYqxABSBPwFETaw5o2X
+FoDx6wdkytdLX5dlTxAlQlSPvj067fVvYzlmTIaD+JwVMy2yT2VUGuZ85PKuj1Qn
+2/DzZfA5SUGIkhPoG7AyeeIk6EeAh6KHftQDt57WvNgjz6YGut7gD5ZzvPFHqWR0
+qAz2AMQK/XC379/mwgYcmh8jjju/hWwfyMjgYzzmxawzLtWY8tIRs6567KjpUTWs
+QDXKmhy3UHv7B3dPS8tS0b/qXw85eVl1PgombpDfg7iIpxcmgiyXJVaxYDCbChxc
+rNHLBd1EXBC4vMPV/WVlDAZNYj5YK1wUoBy0moVEea6PGYOei1NicTioF88VQR0k
+NpT85Q1FZLmrFuRGAn38PQKhK4mUTQbNniT1prfGg941LuapKrV4UQYZk1dZRO8N
+jp/FQz4+cnWU0bZBKETvVK1x3jXTh/mxOK1zxUC7/9FhdEy0oHaHGEkpyYhp/LDH
+vp0ODxU9dXeMBqHxiTGIcm+q+/cGS8WgCpdwOtA4VJUg3shHorBrtLbjujK7zOt4
+mj0rzVzqqpl0dqZaZqvTV+pPuXdrGbMb0D4kcBP8KTwFIo4xz8E3iHBUARr7Ofbx
+b2tpu6KA5bfkp3j9hZPqcLdY9oVPVmGXBQrlVRniMm2M8HTMfD0j6ugG6bOAYtVD
+fE7/x8ToHgmn7fI7ZBol
+=+l3D
+-----END PGP SIGNATURE-----
